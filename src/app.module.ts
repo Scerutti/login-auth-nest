@@ -9,7 +9,7 @@ import configuration from './shared/configuration';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/nest'),
+    MongooseModule.forRoot('mongodb+srv://scerutti:WFQJspZaOCYREJCY@cluster0.ezi1rja.mongodb.net/nest'),
     UsersModule,
     AuthModule,
     ConfigModule.forRoot({
